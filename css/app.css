@@ -1,0 +1,430 @@
+.top-bar {
+  padding: 40px;
+  background-color: white;
+}
+
+.top-bar, .top-bar ul {
+  background-color: white;
+}
+
+.menu-text-title {
+  color: gray;
+  font-size: 25px;
+  padding-right: 40px;
+}
+
+.top-bar-left ul li img {
+  color: gray;
+}
+
+.top-bar-left ul li a{
+  background-color: : white;
+  color: gray;
+  padding-bottom: 0px;
+}
+
+.top-bar-left ul {
+  background-color: white;
+  color: gray;
+}
+
+#logo {
+  display: inline;
+  height: 40px;
+  width: 40px;
+  padding-right: 5px;
+}
+
+.button {
+  background-color: #626d75;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.menu > li > a {
+    padding: 0.17rem 1rem;
+    padding: 0.1rem 1rem;
+    line-height: 1;
+}
+
+.hero {
+  background-image: url(../images/groundcover.jpg);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  height: 400px;
+  padding-top: 100px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero a {
+  color: white;
+  background: transparent;
+  font-weight: normal;
+}
+
+.menu-centered {
+  background-color: #EEEEEE;
+}
+.menu-centered li a {
+  background-color: #EEEEEE;
+  color: gray;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.orbit-container {
+  margin-top: 75px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 75px;
+}
+
+.orbit-slide h3 {
+  color: gray;
+  font-size: 16px;
+}
+
+.orbit-slide p {
+  color: gray;
+  font-size: 14px;
+  padding: 25px 125px 75px 125px;
+}
+
+.orbit-previous img {
+  width: 40px;
+  height: 40px;
+}
+
+.orbit-next img {
+  width: 40px;
+  height: 40px;
+}
+
+.row medium-up-4 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#classes {
+  background-color: #e4e5de;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-bottom: 100px;
+}
+
+#classes h3 {
+  color: gray;
+  font-size: 16px;
+  padding-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.thumbnail {
+  border: none;
+  box-shadow: 0 0 0 0px;
+  height: 70px;
+  width: 70px;
+  /*padding-left: 0px;
+  padding-right: 0px;*/
+}
+
+.column h4 {
+  color: gray;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 0;
+}
+
+.column {
+  padding-top: 50px;
+  margin: 0;
+}
+
+.class-note {
+  background-color: #ccc9c1;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  width: 100%;
+}
+
+.class-note p {
+  color: gray;
+  text-align: center;
+}
+
+.instructors-top {
+  height: 100px;
+  background-color: #fff;
+
+}
+
+.instructors-top h4 {
+  color: gray;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 55px;
+  z-index: 1;
+}
+
+.instructors-bottom {
+  background-color: #e4e5de;
+  /*height: 300px;
+  padding-top: 150px;
+  z-index: 1;*/
+  padding: 0px 0 40px 0;
+  z-index: 1;
+  position: relative;
+  top: 200px;
+  height: 300px;
+}
+
+.instructors-bottom p {
+  color: gray;
+  text-align: center;
+  padding: 160px 30px 0px 30px;
+}
+
+.columns img {
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+}
+
+/*div.columns.medium-4 {
+  height: 150px;
+  width: 150px;
+}*/
+/*.row align-center {
+  z-index: 12;
+  left: 50%;
+}*/
+.small-block-grid-3 img{
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+}
+
+.instructors-pic {
+  z-index: 12;
+  margin: 0 auto;
+  position: absolute;
+  left: 20%;
+  right: 20%;
+}
+
+/*Membership Levles*/
+.pricing-table {
+  border: solid 1px #DDDDDD;
+}
+.pricing-table li {
+  border-bottom: dotted 1px #DDDDDD;
+  font-size: 0.75rem;
+  padding: 0.875rem 1.125rem;
+}
+.pricing-table li:last-child {
+  border-bottom: 0;
+}
+.pricing-table .title {
+  background-color: #f1f1f1;
+  color: #EEEEEE;
+  font-size: 0.875rem;
+  border-bottom: 0 !important;
+}
+.pricing-table .price {
+  background-color: white;
+  color: #333333;
+  font-size: 2.75rem;
+  border-bottom: 0 !important;
+  text-align: left;
+}
+.pricing-table .description {
+  color: #777777;
+  font-size: 0.825rem;
+  text-align: left;
+}
+.pricing-table .button {
+  margin: 0;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.pricing-table.secondary {
+  border: solid 1px #DDDDDD;
+}
+.pricing-table.secondary li {
+  border-bottom: dotted 1px #DDDDDD;
+  padding: 0.875rem 1.125rem;
+}
+.pricing-table.secondary li:last-child {
+  border-bottom: 0;
+}
+.pricing-table.secondary .title {
+  background-color: #f1f1f1;
+  color: #EEEEEE;
+}
+.pricing-table.secondary .price {
+  background-color: white;
+  color: #333333;
+  text-align: left;
+}
+.pricing-table.secondary .description {
+  color: #777777;
+  text-align: left;
+  font-size: 0.825rem;
+}
+.pricing-table.secondary .button {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.pricing-table.third {
+  border: solid 1px #DDDDDD;
+}
+.pricing-table.third li {
+  border-bottom: dotted 1px #DDDDDD;
+  padding: 0.875rem 1.125rem;
+}
+.pricing-table.third li:last-child {
+  border-bottom: 0;
+}
+.pricing-table.third .title {
+  background-color: #565656;
+  color: #565656;
+}
+.pricing-table.third .price {
+  background-color: white;
+  color: #333333;
+  text-align: left;
+}
+.pricing-table.third .description {
+  color: #777777;
+  font-size: 0.825rem;
+  text-align: left;
+}
+.pricing-table.third .button {
+  background-color: #565656;
+  color: white;
+  border-radius: 0;
+}
+
+.pricing-table {
+  height: 316px;
+}
+
+.price-detail {
+  padding-left: 25px;
+  font-size: 12px;
+  display: inline;
+}
+
+/*.secondary hollow button {
+  button-fill: hollow;
+}*/
+
+#membership {
+  padding-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#membership h1 {
+  color: gray;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+.seperate {
+  height: 100px;
+}
+.pricing-table {
+  border-bottom-color: none;
+}
+
+.pricing-table-benefit ul{
+  margin-left: 0;
+}
+
+.benefit-dim {
+  color: #f1f1f1;
+  text-decoration: line-through;
+}
+
+/*Resources*/
+#resources {
+  background-color: #ccc9c1;
+  height: 800px;
+}
+#resources h1 {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 100px;
+}
+.grid {
+   width: 600px;
+   margin: 0 auto;
+   padding-top: 50px;
+ }
+
+.block1 { margin: 0 2% 2% 0; width: 45%; float:left; background: white; height: 125px; }
+.block2 { margin: 0 2% 2% 0; width: 50%; float:left; background: white; height: 125px; }
+.block3 { margin: 0 2% 2% 0; width: 64%; float:left; background: white; height: 125px; }
+.block4 { margin: 0 2% 2% 0; width: 31%; float:left; background: white; height: 125px; }
+.block5 { margin: 0 2% 2% 0; width: 31%; float:left; background: white; height: 125px; }
+.block6 { margin: 0 2% 2% 0; width: 31%; float:left; background: white; height: 125px; }
+.block7 { margin: 0 3% 2% 0; width: 31%; float:right; background: white; height: 125px; }
+.block8 { margin: 0 2% 2% 0; width: 97%; float:left; background: white; height: 125px; }
+
+/*Form*/
+#bottom-form {
+  background-color: white;
+  height: 600px;
+  padding-top: 100px;
+}
+
+#bottom-form h4 {
+  color: gray;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+
+label {
+  color: gray;
+}
+
+textarea {
+height: 125px;
+width: 100%;
+resize: none;
+outline: none;
+}
+
+.button.secondary-2 {
+  border-radius: 0px;
+  width: 100px;
+  margin-left: 118px;
+  padding-top: 3px;
+  padding-right: 15px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  float: left;
+}
+
+.small-12 .row {
+  margin-left: 100px;
+  margin-right: 100px;
+}
